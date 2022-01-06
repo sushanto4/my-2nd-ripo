@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200&family=Poppins:wght@300&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 5% 7%;
+    align-items: center;
+}
+
+header .left,
+header .right {
+    width: 50%;
+}
+
+header .left {
+    padding-right: 10%;
+}
+
+header img {
+    width: 60%;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Yeseva One',
+        cursive;
+    border-left: 3px solid #F49560;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #333333;
+    padding-left: 10px;
+}
+
+.orange-text {
+    color: #2E597C;
+}
+
+.normal-text {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.btn {
+    background-image: linear-gradient(to right, #F49560, #FBD462);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+main {
+    padding: 2% 7%;
+}
+
+main h2 {
+    text-align: center;
+    color: #121118;
+    font-size: 36px;
+    padding-bottom: 40px;
+    font-weight: 800;
+}
+
+main .card {
+    display: flex;
+}
+
+.card .card-item {
+    width: 30%;
+    padding: 25px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.card-item p {
+    font-size: 12px;
+    padding: 10px 0;
+    color: #424242;
+}
+
+.item-1 {
+    background-color: rgba(79, 157, 166, .1);
+}
+
+.item-2 {
+    background-color: rgba(255, 89, 89, .1);
+
+}
+
+.item-3 {
+    background-color: #FFF4D6;
+}
+
+
+.card-item img {
+    width: 40%;
+}
+
+.develop {
+    padding: 2% 7%;
+    display: flex;
+    align-items: center;
+}
+
+.develop .left {
+    width: 40%;
+}
+
+.develop .left img {
+    width: 100%;
+}
+
+
+.develop .right {
+    width: 60%;
+    padding: 0 40px;
+}
+
+.develop .right h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.develop .right p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.global {
+    padding: 2% 7%;
+    display: flex;
+    align-items: center;
+}
+
+.global .right {
+    width: 40%;
+}
+
+.global .right img {
+    width: 100%;
+}
+
+
+.global .left {
+    width: 60%;
+    padding-right: 10%;
+}
+
+.global .left h2 {
+    font-size: 30px;
+}
+
+.global .left p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.app {
+    padding: 2% 7%;
+
+}
+
+.app h2 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    padding-bottom: 40px;
+    font-weight: 800;
+}
+
+.our-application {
+    display: flex;
+    padding: 2% 7%;
+    align-items: center;
+}
+
+.our-application .left,
+.our-application .right {
+    width: 50%;
+}
+
+.our-application .left {
+    padding-right: 10%;
+}
+
+.our-application .left img {
+    width: 60%;
+    text-align: center;
+}
+
+.our-application .right h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.our-application .right p {
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    padding: 3% 7%;
+    color: #FFF;
+}
+
+footer h1 {
+    font-family: 'Lobster',
+        cursive;
+}
+
+.orangered-text {
+    color: #FF5959;
+}
+
+footer p {
+    padding: 10px 0;
+    font-size: 14px;
+    color: grey;
+}
